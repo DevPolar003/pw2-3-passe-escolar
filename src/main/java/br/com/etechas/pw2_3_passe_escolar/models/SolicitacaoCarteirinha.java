@@ -33,5 +33,5 @@ public class SolicitacaoCarteirinha {
 
     @Column(name = "status")
     @Enumerated(EnumType.STRING)
-    private String status;
+    private Status status;
 }
