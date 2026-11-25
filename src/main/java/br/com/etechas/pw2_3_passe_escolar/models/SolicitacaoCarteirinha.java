@@ -32,5 +32,6 @@ public class SolicitacaoCarteirinha {
     private LocalDate dataRetiradaPrevista;
 
     @Column(name = "status")
+    @Enumerated(EnumType.STRING)
     private String status;
 }
