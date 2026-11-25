@@ -7,6 +7,6 @@ Nome_estudante VARCHAR(100) NOT NULL,
 Matricula VARCHAR(30) NOT NULL,
 Linha_onibus VARCHAR(40) NOT NULL,
 Data_solicitacao DATE NOT NULL,
-Data_retirada_prevista DATE NOT NULL,
+Data_retirada_prevista DATE,
 Status VARCHAR(25) NOT NULL
 )
